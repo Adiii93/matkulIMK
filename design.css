@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(rs.jpg);
+    background-size: cover;
+    background-color: #f5f5f5;
+  }
+  
+  #login-judul, #menu-judul, #buton-judul {
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 0px -4px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 7px 7px 0px -4px rgba(0,0,0,0.18);
+    -moz-box-shadow: 7px 7px 0px -4px rgba(0,0,0,0.18);
+  }
+  
+  #login-judul h1, #menu-judul h1, #buton-judul h1  {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #loginForm, #menuForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #butonForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #loginForm input, #menuForm input, #menuForm select #buton select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #loginForm input[type=submit], #menuForm button #buton button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #loginForm input[type=submit]:hover, #dashboardForm button:hover #buton button:hover{
+    background-color: #3e8e41;
+  }
+  
+  .hide {
+    display: none;
+  }
